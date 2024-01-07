@@ -7,7 +7,7 @@ namespace MyGrove{
     }
 
     //% block="初期化"
-    function lcdInit() {
+    export function lcdInit() {
         basic.pause(30)
         lcdWriteResister(0x80, 0x20)
         basic.pause(1);
